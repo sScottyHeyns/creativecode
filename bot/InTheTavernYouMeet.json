@@ -1,0 +1,8 @@
+{
+	"race":["Dragonborn","Dwarf","Elf","Gnome","Half-Elf","Half-Orc","Halfling","Human","Tiefling","Aarakocra","Aasimar","Bug Bear","Firbolg","Goblin","Grung","Hobgoblin","Kenku","Kobold","Lizardfolk","Orc","Tabaxi","Titan","Yuan-Ti","Gith","Changeling","Eladrin","Genasi","Goliath","Minotaur","Shifter","Warforged"],
+	"subrace":[],
+	"three":["GREEE","RRRR","-","UUUUUU","GHGH","G","MOR","GWA","AAA","EEEEEE"],
+	"four":["GREEE","RRRR","GH","UUUUUU","GHGH","G","GA","GWA","AAA","OOOOO","GGGHH","AAAAAAA","UUGGGHH","RRRL","UMMP","ORRPP","UUULLLLPPP"],
+	"punct":["!","!!!!","!!?"],
+	"origin": ["#one##two##three##four##punct#"]
+}
