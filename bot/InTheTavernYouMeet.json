@@ -1,6 +1,6 @@
 {
 	"race": ["#DBSub# Dragonborn","#DWSub# Dwarf","#ELSub# Elf","#GNSub# Gnome","Half-Elf","Half-Orc","#HFSub# Halfling","Human","Tiefling","Aarakocra","#ASSub# Aasimar","Bug Bear","Firbolg","Goblin","Grung","Hobgoblin","Kenku","Kobold","Lizardfolk","Orc","Tabaxi","Titan","Yuan-Ti","Gith#GTSub#","Changeling","#EDSub# Eladrin","#GNSub# Genasi","Goliath","Minotaur","#SHSub# Shifter","Warforged"],
-	"DBSub"= ["Black","Blue","Brass","Bronze","Copper","Gold","Green","Red","Silver","White"],
+	"DBSub": ["Black","Blue","Brass","Bronze","Copper","Gold","Green","Red","Silver","White"],
 	"DWSub": ["Hill","Mountain","Duergar"],
 	"ELSub":["High","Wood","Dark"],
 	"GNSub": ["Forest","Rock","Deep"],
