@@ -1,4 +1,4 @@
-# frankenpoem.py
+# SonnetShaker.py
 
 ##  A python program designed to take a word file and create poetry out
 ## it
@@ -26,14 +26,14 @@ def main():
         sonLines[13]= oldLine[1]
     elif newCouplet==3 or newCouplet==4:
         oldLine= [sonLines[newCouplet+1],sonLines[newCouplet+3]]
-        sonLines[newCouplet-1]= couplet[0]
-        sonLines[newCouplet+1]= couplet[1]
+        sonLines[newCouplet+1]= couplet[0]
+        sonLines[newCouplet+3]= couplet[1]
         sonLines[12]= oldLine[0]
         sonLines[13]= oldLine[1]
     elif newCouplet==5 or newCouplet==6:
         oldLine= [sonLines[newCouplet+3],sonLines[newCouplet+5]]
-        sonLines[newCouplet-1]= couplet[0]
-        sonLines[newCouplet+1]= couplet[1]
+        sonLines[newCouplet+3]= couplet[0]
+        sonLines[newCouplet+5]= couplet[1]
         sonLines[12]= oldLine[0]
         sonLines[13]= oldLine[1]
 
