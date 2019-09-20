@@ -1,10 +1,3 @@
-# FrankenPoem
+# Sonnet Shaker
 
-This project is a poem generator in Python. To see it run, download the [python script](frankpoem.py) and run it with Python or in a notebook. It will require [TextBlob](https://textblob.readthedocs.io), so make sure you've installed that first. 
-
-This script also assumes you have a file called "frankenstein.txt" in the same directory that the script runs from. The contents of that file can be anything you want to appropriate from. If you have different files, you can just change the filename reference on line 9 of the script.
-
-What this script will do is read the input file, parse it for parts of speech, then output a stanza of something that hopefully resembles poetry. The poetic quality of that output will vary widely based on the input. 
-
-Honestly (or should I say "frankly"? Get it?) I don't usually find the output of this script particularly compelling, but I think it's a good demonstration of some important concepts like working with a library and parts of speech tagging.
-
+  This program is a study in the meaning of Shakespeare's Sonnets, and sonnets in general, through the ordering of their lines. Observe as this program takes a random pair of rhyming lines from the main body of the poem and exchanges it with the rhyming couplet as the end. This changes the final beat of the poem, which usually tells us as the reader what idea to focus on. Swapping these lines out changes the perspective and gives the sonnet an entirely new feel. This will work with any of Shakespeare's Sonnets, provided they follow the usual 14 line structure with a ABABCDCDEFEFGG rhyme scheme. If you do experiment with other sonnets, make sure the text file ends in a new line.
