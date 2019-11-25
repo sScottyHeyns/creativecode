@@ -1,17 +1,21 @@
-# Three Ways to Generate a Novel
+# Crafting Horror Novels
 
-This project folder contains three different examples for generating a novel, as definied by [NaNoGenMo](http://nanogenmo.github.io). 
+This program writes a unique horror novel based on some of the timeless classics. Here we use text files of Dracula by Bram Stoker and Frankenstein by Mary Shell with the Markovify library to generate a novel that mixes the two authors' unique styles. This generates a novel that sounds like it should be suspenseful and horrific, but mostly results in hysterical nonsense. After generation we used the FPDF library to make the novel into an easy-to-read PDF.
 
-## Rainy Days
-The python scripts in [my_rainy_day.py](my_rainy_day.py) and [another_rainy_day.py](another_rainy_day.py) generate novels by randomly repeating and arranging the words "drip" and "drop". The first uses punctionation to mimic the syntax of prose and the second prints the words vertically as a concrete poem about rain.
+## Output
 
-## Recipes for Revolution
-This [python script](revolution_recipes.py) uses a Markov chain generator on some input text to generate novels that should sound something like Karl Marx mashed up with a recipe book. The script expects a file called "combined.txt" in the same directory that the script runs in, so in the example case, that file consists of text from _The Communist Manifesto_ and a recipe book.
+In a folder labeled "Abominations", this program will generate four different text files: DifferentDracula.txt, NewFrankenstein.txt,  OriginalCthulhu.txt, and Pure_Horror.txt. The first three are 200 sentence samples of the individual novels, to give you a feel of what Markovify will do to individual novels before mixing styles. The "Pure_Horror" file is the manuscript for the combined story, which our "makePDF" function will turn into a PDF directly.
 
-The script also includes some libraries useful for formatting and printing the resulting text as a PDF document, so in addition to [markovify](https://github.com/jsvine/markovify), you'll also need [pdfkit](https://pypi.org/project/pdfkit/), [wkhtmltopdf](https://wkhtmltopdf.org/), and [dominate](https://github.com/Knio/dominate/).
+## Need to Fix
 
-## Tracery Bookery
-The enclosed [story.json](story.json) file is a Tracery grammar that should expand a few sentences into something like 50,000 words. The actual word count will vary based on the length and number of the core sentences.
+Originally we were going to include In the Mountains of Madness by H.P. Lovecraft, and we include a 200 page text sample from that novel. However, there is a certain character in that book that the FPDF library can't encode. In a later project we will hunt down that character and eliminate it from the manuscript so that we may include this horror classic with our other examples.
 
-This JSON file can be dropped into [this template](https://github.com/zachwhalen/bookery).
+## Objectivity Distribtion
 
+Also included in this project is a failed experiment in story structure. The "Objectivity Distribution" was made to plot the objectivity, as defined by the TextBlob library, of the sentences in a story on a graph, using the MatPlotLib library. The idea was to see if there was a predictable ebb and flow to the objectivity of sentences in a novel, which could be used to give the generated story a more authentic feel to it. Unfortunately, there appears to be no correlation of objectivity with the structure of any of the three novels we have samples of.
+
+## Modules Needed
+
+Modules needed to run this code:
+Markovify('pip install markovify)
+FPDF ('pip install fpdf')
