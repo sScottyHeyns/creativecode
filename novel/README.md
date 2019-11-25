@@ -17,5 +17,5 @@ Also included in this project is a failed experiment in story structure. The "Ob
 ## Modules Needed
 
 Modules needed to run this code:
-Markovify('pip install markovify)
-FPDF ('pip install fpdf')
+\nMarkovify('pip install markovify)
+\nFPDF ('pip install fpdf')
