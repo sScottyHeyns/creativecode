@@ -14,4 +14,4 @@ In addition to creating unique characters this bot now provides flavor text that
 
 ## Update: Fixed Ridiculous Ages
 
-Ages beyond the normal lifespan are now much more rare. There is now only a 12% chance that the bot will choose an age for the character that is outside the normal lifespan of a human. Originally I though that there should be a better chance of the 100-300 year range than the 300-1000 year range because dwarves live around that long, but this just led to a lot of characters being way past their races' prime (Humans, Orcs, Halflings, etc.). So now only 12 out of every 100 characters will have an age over 85.
+Ages beyond the normal lifespan are now much more rare. There is now only a 12% chance that the bot will choose an age for the character that is outside the normal lifespan of a human. Originally I thought that there should be a better chance of the 100-300 year range than the 300-1000 year range because dwarves live around that long, but this just led to a lot of characters being way past their races' prime (Humans, Orcs, Halflings, etc.). So now only 12 out of every 100 characters will have an age over 85.
